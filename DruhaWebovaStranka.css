@@ -2,13 +2,20 @@
     color: blue;
 }*/
 
-@media(max-width: 768px){
-    #prvni-paragraf {
-        color:red;
-        font-size: 2vw;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;   
+
+#prvni-paragraf {
+    color:red;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .odstavec {
+        color:blueviolet;
+        font-size: 100px;
     }
 }
+
 
 .container {
     display: flex;
